@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link rel="stylesheet" href="css/style.css">
+    
+    
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Livraria Virtual</title>
+    
+    <style>
+        /* Estilo geral */ body { font-family: 'Arial', 
+        sans-serif; 
+        margin: 0; 
+        padding: 0; 
+        background-color: rgb(84, 179, 194); 
+        color: #333; }
+     
+        
+
+        h1, h2 {
+            text-align: center;
+        }
+
+        
+        header {
+            background-color: rgb(0, 0, 0);
+            color: white;
+            padding: 20px 0;
+            
+        }
+
+    
+
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+            text-align: center;
+        }
+
+        nav ul li {
+            display: inline;
+            margin: 0 15px;
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-size: 18px;
+            text-transform: uppercase;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        
+        }
+
+        nav ul li a:hover {
+            border-bottom: 2px solid #f39c12;
+        }
+
+
+        .hero h2 {
+            font-size: 3em;
+            margin: 0;
+        }
+
+        .book-section {
+            padding: 50px 20px;
+            text-align: center;
+        }
+
+        .book-container {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+
+        .hero {
+            background: url('https://via.placeholder.com/') no-repeat center center;
+            background-size: cover;
+            height: 400px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: white;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
+            background-color: #d1f4ff;
+        }
+      
+        .book {
+            background-color: white;
+            width: 200px;
+            padding: 15px;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease;
+        }
+
+        .book:hover {
+            transform: translateY(-10px);
+        }
+
+        .book img {
+            width: 100%;
+            border-radius: 8px;
+        }
+
+        .book-title {
+            font-size: 1.2em;
+            margin-top: 10px;
+            font-weight: bold;
+        }
+
+        .book-price {
+            color: #f39c12;
+            font-size: 1.1em;
+        }
+
+        footer {
+            background-color: #ffffff;
+            color: white;
+            text-align: center;
+            padding: 15px;
+            margin-top: 50px;
+        }
+
+        footer a {
+            color: #f39c12;
+            text-decoration: none;
+        }
+
+        footer a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <nav>
+            <span> 
+                <div class="lo">
+                  <img src="img/logo novo.png" alt="">
+                </div> 
+            </span>
+           
+            <ul style="padding-left: 700px;">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Sobre nós</a></li>
+                <li><a href="#">Livros</a></li>
+                <li><a href="#">Contato</a></li>
+            </ul>
+        
+        </nav>
+    </header>
+
+    <section class="hero">
+        <h2>Bem-vindo à Livraria LitPlace!</h2>
+
+    </section>
+
+    <section class="book-section">
+        <h1>Livros em Destaque</h1>
+        <div class="book-container">
+            <div class="book">
+                <img src="img/Todas as suas perfeições.png"">
+                <div class="book-title">Todas as Suas Perfeições</div>
+                <div class="book-price">R$ 39,32</div>
+            </div>
+
+            <div class="book">
+                <img src="img/Coraline.png" alt="Livro 2">
+                <div class="book-title">Coraline</div>
+                <div class="book-price">R$ 46,05</div>
+            </div>
+
+            <div class="book">
+                <img src="img/Os sete Maridos.png" alt="Livro 3">
+                <div class="book-title">Os Sete Maridos</div>
+                <div class="book-price">R$ 25,14</div>
+            </div>
+
+            <div class="book">
+                <img src="img/O Pequeno Principe.png" alt="Livro 4">
+                <div class="book-title">O Pequeno Príncipe</div>
+                <div class="book-price">R$ 13,43</div>
+            </div>
+        </div>
+    </section>
+
+  
+    <footer>
+        <p>&copy; 2024 Livraria LitPlace | <a href="#">Política de Privacidade</a> | <a href="#">Termos de Serviço</a></p>
+    </footer>
+
+
+</body>
+
+</html>
